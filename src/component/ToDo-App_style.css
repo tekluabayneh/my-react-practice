@@ -1,0 +1,90 @@
+body {
+  background-color: #dfe4ea;
+}
+.todo_container {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  background-color: #dff9fb;
+  box-shadow: 0 0 10px rgb(36, 8, 8);
+}
+h1 {
+  color: #ffcc66;
+  text-align: center;
+}
+.input-section {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.input_fild {
+  flex: 1;
+  width: 60%;
+
+  padding: 7px;
+  margin-right: 10px;
+  border-radius: 10px 0 10px 0;
+  border: 1px solid beige;
+}
+.Add_btn,
+.Cancel_btn,
+.Update_btn {
+  padding: 7px;
+  margin-inline: 1.5px;
+  border: none;
+  border-radius: 10px 0 10px 0;
+  cursor: pointer;
+  background: #ffcc66;
+  font-size: 1rem;
+  font-weight: 900;
+}
+.Add_btn:hover,
+.Cancel_btn:hover,
+.Update_btn:hover {
+  background: #ffffff;
+  color: #2e1f00;
+}
+
+.Todo_List {
+  list-style: none;
+  padding: 0;
+}
+.Todo_List li {
+  padding: 8px;
+  margin: 4px;
+  border-radius: 10px 0 10px 0;
+  border: 1px solid #e4e4e4;
+  color: white;
+  background: #e056fd;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  box-shadow: 0 0 6px white;
+  font-weight: 900;
+}
+.Todo_List li.completed {
+  text-decoration: line-through;
+}
+.btn_group button {
+  margin-left: 0;
+  padding: 5px;
+  border-radius: 10px 0 10px 0;
+  cursor: pointer;
+  padding-inline: 0.6rem;
+  margin-inline: 0.4rem;
+}
+.btn_group button:hover {
+  background: #000000;
+  color: rgb(255, 255, 255);
+}
+.btn_Edit {
+  color: #26ff00;
+}
+.btn_remove {
+  color: #f11212;
+}
+.btn_done {
+  color: #00614b;
+}
